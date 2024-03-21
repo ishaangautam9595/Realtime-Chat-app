@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:ital,wght@0,400;1,300&family=Poppins:wght@200;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input {
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+p {
+  font-size: 14px;
+  color: black;
+}
+
+.scroll{
+  position: absolute;
+  bottom: 112px;
+  right: 22px;
+  height: 30px;
+  width: 30px;
+}
+
+.scroll svg{
+  float: right;
+  background-color:rgb(123, 44, 191);
+  border-radius: 50%;
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+
+body {
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.Toastify__toast-theme--dark {
+  background-color: #00000076 !important;
+}
+
+.current-user {
+  padding-left: 30px;
+  text-transform: capitalize;
+  color: white;
+  padding-top: 15px;
+  margin-top: 15px;
+  display: flex;
+  background-color: #4f04ff21;
+}
+
+.username h3 {
+  color: white;
+  margin-top: 13px;
+}
+
+hr {
+  width: 254px;
+}
+
+@media (max-width: 768px) {
+  hr {
+    width: 850px;
+  }
+}
+
+.search {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding: 0px 30px;
+  background: #ffffff08;
+  border-radius: 0;
+}
+
+@media (max-width: 767px) {
+  .search {
+    justify-content: inherit;
+  }
+}
+
+aside.emoji-picker-react {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  width: 280px;
+  font-family: sans-serif;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px #efefef;
+  overflow: hidden;
+  position: fixed !important;
+  bottom: 70px !important;
+  right: 20px;
+}
+
+.groupmem{
+  width: 50px;
+}
+
+input.inputs {
+  position: relative;
+  width: 80%;
+  height: 9%;
+  background-color: transparent;
+  color: rgba(229, 229, 255, 255);
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
+
+.inputs:focus {
+  outline: none;
+}
+
+.css-1rhbuit-multiValue {
+  background-color: rgba(229, 229, 255, 255) !important;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2px;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+input.inputss {
+  position: relative;
+  width: 100%;
+  height: 9%;
+  background-color: transparent;
+  color: black !important;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.deleteicon{
+  color: #812eba!important;
+  border-radius: 50%;
+ font-size: 25px!important;
+
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+}
+
+.dot {
+ height: 15px;
+    width: 15px;
+    background-color: #812eba;
+    position: absolute;
+    border-radius: 50%;
+    left: 165px;
+    display: inline-block;
+}
+
+.flex button{
+  background-color: #812eba;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-size: 29px;
+  margin-top: -80px;
+  padding-bottom: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  width: 0.1rem;
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+button.eyebutton {
+  margin: 0;
+}
+
+.flex h6{
+  font-size: 22px!important;
+}
+
+.flex p{
+  padding: 10px 0px;
+}
+.icons {
+  display: flex;
+  padding: 0px 50px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.icons .active {
+  color: rgb(123, 44, 191) !important;
+}
+
+.left {
+  display: flex;
+  float: left;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .left {
+    margin-left: -30px;
+  }
+}
+
+.unreadCount {
+  background-color: #812eba !important;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 60px;
+}
+
+.unreadCount p {
+  color: #fff !important;
+  text-align: center;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.avatars {
+  background-color: rgba(33, 25, 64, 255) !important;
+  color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.user-details .avatar {
+  position: relative !important;
+}
+
+.right {
+  margin-left: 230px;
+}
+
+.avatars p {
+  font-size: 17px !important;
+  color: white !important
+}
+.nav-menu .avatars {
+  position: relative;
+}
+.uploadimg {
+  width: 70px;
+  height: 70px;
+  margin-top: -20px;
+}
+.messageimg{
+  width: 300px;
+  height: 300px;
+  border-radius: 5px!important;
+}
+
+.pin svg{
+  color: gray;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.unread{
+  background-color: rgb(123, 44, 191) !important;
+  border-top: 1px solid #ffffff0d;
+  font-weight: bold;
+  padding: 30px;
+  font-size: 16px;
+  color: white;
+}
